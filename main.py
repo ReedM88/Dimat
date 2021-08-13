@@ -139,7 +139,7 @@ def hatvanymaradek(alap,kitevo,mod):
             uj_alap = int(math.pow(alap,kitevo_felbontas*(-1)))
         return kongurencia(uj_alap,relativ_prim,mod)
     else:
-        return 'Nemjó'
+        return 'Not exist'
 
 
 
